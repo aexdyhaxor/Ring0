@@ -1,4 +1,4 @@
-obj-m := hook.o
+obj-m := smok.o
 CC = gcc -Wall 
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
