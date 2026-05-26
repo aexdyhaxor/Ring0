@@ -25,3 +25,9 @@ Untuk melakukan kompilasi (*compile*) modul kernel ini, sistem Linux harus memil
 ```bash
 sudo apt update
 sudo apt install build-essential gcc linux-headers-$(uname -r) -y
+
+
+```bash
+sudo insmod smok.ko
+lsmod | grep smok
+<img width="1208" height="252" alt="image" src="https://github.com/user-attachments/assets/ffe8973c-3c4a-40c5-8f1e-1412c4d0644d" />
